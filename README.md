@@ -23,3 +23,9 @@ Repositório dedicado aos exercicios realizados nas aulas de Linguagem de Progra
   * c)Circunferência: 2pR.
   
   Dica: use a constante PI da classe Math, para obter o valor de p.
+
+4 - Desenvolva um programa em Java para calcular o volume de um cone dados dois números in-teiros, representado o raio da base do cone (r) e a sua altura (h).
+
+ Sabe-se que o volume do coneé dado por:V=Ab⋅h3onde Ab é a área da base do cone.
+
+5 - Todo restaurante, embora por lei não possa obrigar o cliente a pagar, cobra 10% para o garçom.Fazer um programa em Java que leia o valor gasto com despesas realizadas em um restaurantee imprima o valor total da gorjeta.
