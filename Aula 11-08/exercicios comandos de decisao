@@ -1,0 +1,48 @@
+1 - Qual o resultado as expressões lógicas em Java abaixo?
+a)true || false && false:
+
+		true
+
+b)(true || false) && false
+
+		false
+
+c)5 >= 5 || 7 / 2 > 3 && 8 % 2 == 0
+  5 >= 5 || 3 > 3 && 0 == 0
+  true || false && true
+  true || false 
+  true	
+
+d)!(3  + 4 * 2 == 14 || (3 + 4) * 2 == 14) && 8 – 10 / 2 > 0
+  !(11 == 14 || (7) * 2 == 14) && 8 – 10 / 2 > 0
+  !(11 == 14 || 14 == 14) && 8 – 10 / 2 > 0
+  !(false || true) && 8 – 10 / 2 > 0
+  !(true) && 8 – 10 / 2 > 0
+  false && 8 – 5 > 0
+  false && true
+  false 
+
+2 - Considerando A e B duas expressões relacionais em Java, a expressão (!A && B) || (A && !B)assume o valor verdadeiro:
+a)para todos os valores de A e de B
+b)sempre que A é igual a B
+c)sempre que A é diferente de B
+d)sempre que A é falsoe)sempre que B é falso
+
+	A 	|	B 	| 	(!A && B) 	|| (A && !B)
+____________________________________________________________________
+
+TRUE	| TRUE 	| (!TRUE && TRUE) || (TRUE && !TRUE)
+		|       | (FALSE)         || (FALSE)
+		|       | FALSE
+TRUE    | FALSE |	(!A && B) 	|| (A && !B)
+		|		| (FALSE) 		|| (TRUE)
+		|  		| TRUE
+FALSE 	| TRUE	| 	(!A && B) 	|| (A && !B)
+		|		| (TRUE) 		|| FALSE
+		|		| TRUE
+FALSE	| FALSE	| 	(!A && B) 	|| (A && !B)
+        |       |
+        			FALSE 		|| FALSE
+
+        			FALSE	
+
