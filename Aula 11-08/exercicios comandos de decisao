@@ -46,3 +46,48 @@ FALSE	| FALSE	| 	(!A && B) 	|| (A && !B)
 
         			FALSE	
 
+3 - Elimine os testes redundantes dos itens abaixo:
+
+  a)
+
+    if(a > b){
+        System.out.println("Maior: ", a);
+    } 
+    else{
+        System.out.println("Maior: ", b);
+    }
+
+   b)
+
+    if(x>10){
+        System.out.println("Valor maior que 10");
+    }
+    else if(x <= 10 && x > 5){
+        System.out.println("Menor ou igual a 10 e maior que 5");
+    }
+    else{
+        System.out.println("Menor ou igual a 5");
+    }
+
+4 - Dado o trecho deprograma esquemático em Java abaixo, responda:
+
+    a)Quais  comandos   serão  executados   se  cond1  e  cond2  forem  verdadeiras  e  cond3  for falsa?
+
+        comando1, comando2 e comando7
+
+    b)Quais comandos serão executados se cond1 for falsa, cond2 e cond3 forem verdadeiras?
+
+        comando3, comando4, comando6
+
+    c)Quais comandos serão executados se cond1, cond2 e cond3 forem falsas?
+
+        comando5, comando6 e comando7
+
+    d)Que condições devem ser verdadeiras e quais devem  ser falsas para que  comando4,comando6 e comando7 sejam executados?
+
+        cond1 falsa, cond3 verdadeira
+
+5 - Para que faixa de valores da variável x o seguinte segmento de código imprime a letra C?
+
+    x>100 e x<=200
+
