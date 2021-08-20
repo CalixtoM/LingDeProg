@@ -32,6 +32,38 @@ Repositório dedicado aos exercicios realizados nas aulas de Linguagem de Progra
 
 ## Aula 11-08
 
-1 - Escreva um programa em Java que dadas as notas de duas provas, calcule e imprima a média aritmética das provas e exiba a mensagem “Aprovado” se a média for maior ou igual a 6, ou “Reprovado”, caso contrário.
+ex1 - Escreva um programa em Java que dadas as notas de duas provas, calcule e imprima a média aritmética das provas e exiba a mensagem “Aprovado” se a média for maior ou igual a 6, ou “Reprovado”, caso contrário.
 
-2 - Um banco concederá um crédito especial aos seus clientes de acordo com o saldo médio do último ano. Faça um programa em Java que receba o saldo médio de um cliente e calcule o valor do crédito, de acordo com a tabela a seguir. Mostre o valor do crédito.
+ex2 - Um banco concederá um crédito especial aos seus clientes de acordo com o saldo médio do último ano. Faça um programa em Java que receba o saldo médio de um cliente e calcule o valor do crédito, de acordo com a tabela a seguir. Mostre o valor do crédito.
+
+1 - Qual o resultado as expressões lógicas em Java abaixo?
+
+ a)true || false && false
+ b)(true || false) && false
+ c)5 >= 5 || 7 / 2 > 3 && 8 % 2 == 0
+ d)!(3  + 4 * 2 == 14 || (3 + 4) * 2 == 14) && 8 – 10 / 2 > 0 
+
+2 - Considerando A e B duas expressões relacionais em Java, a expressão (!A && B) || (A && !B)assume o valor verdadeiro:
+ 
+ a)para todos os valores de A e de B
+ b)sempre que A é igual a B
+ c)sempre que A é diferente de B
+ d)sempre que A é falso
+ e)sempre que B é falso
+ 
+3 - Elimine os testes redundantes dos itens.
+
+4 - Dado o trecho deprograma esquemático em Java abaixo, responda:
+ 
+ a)Quais  comandos   serão  executados   se  cond1  e  cond2  forem  verdadeiras  e  cond3  forfalsa?
+ b)Quais   comandos   serão   executados   se   cond1   for   falsa,   cond2   e   cond3   foremverdadeiras?
+ c)Quais comandos serão executados se cond1, cond2 e cond3 forem falsas?
+ d)Que condições devem ser verdadeiras e quais devem  ser falsas para que  comando4,comando6 e comando7 sejam executados?
+ 
+5 - Para que faixa de valores da variável x o seguinte segmento de código imprime a letra C? 
+
+6 - A prefeitura de Santos abriu uma linha de crédito para funcionários estatutários. O valor máximo da prestação não poderá ultrapassar 30% do salário bruto. Fazer um  programa  que permita entrar com o salário bruto, o valor do empréstimo e o número de parcelas e informaro valor da parcela, se o empréstimo pode ou não ser concedido e caso o não possa ser concedido, informar o valor máximo da parcela.
+
+7 - Desenvolva um programa que dados dois números inteiros, imprimi-los em ordem decrescente(suponha números diferentes).
+
+8 - Desenvolva um programa que dados três números inteiros, informe quantos são negativos.
