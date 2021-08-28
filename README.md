@@ -67,3 +67,22 @@ ex2 - Um banco concederá um crédito especial aos seus clientes de acordo com o
 7 - Desenvolva um programa que dados dois números inteiros, imprimi-los em ordem decrescente(suponha números diferentes).
 
 8 - Desenvolva um programa que dados três números inteiros, informe quantos são negativos.
+
+## Aula 25-08
+
+1 - Qual a saída do programa abaixo?
+
+2 - Qual a saída do programa abaixo?
+
+3 - Desenvolva um programa em Java para gerar a seguinte saída usando um laço for:
+
+ 2
+ 4
+ 6
+ 8
+ 10
+ Tchau!
+
+4 - Desenvolva um programa em Java para imprimir os múltiplos de 5 no intervalo de 1 a 100.
+
+5 - Desenvolva um programa em Java que dados 10 números, imprima o quadrado de cada umdeles.
