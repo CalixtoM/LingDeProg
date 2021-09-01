@@ -87,6 +87,16 @@ ex2 - Um banco concederá um crédito especial aos seus clientes de acordo com o
 
 5 - Desenvolva um programa em Java que dados 10 números, imprima o quadrado de cada um deles.
 
+6 - Desenvolva  um   programa  em   Java  que  dada   uma  coleção   de  números  inteiros  positivos terminada por 0 (zero), imprimir seus quadrados.
+
+7 - Desenvolva um programa em Java que leia um número que será o limite superior de umintervalo e imprimir todos os números pares menores que esse número. Exemplo: Para limite superior = 16 a saída deverá ser 2, 4, 6, 8, 10, 12, 14.
+
+8 - Desenvolva um programa em Java que dados n inteiro e k natural, calcular nk. Não é permitido usar o método Math.pow().
+
+9 - Uma loja de discos anota diariamente durante o mês de março a quantidade de discos vendidos. Desenvolva um programa em Java para determinar em que dia desse mês ocorreu a maior venda e qual foi a quantidade de discos vendida nesse dia.
+
+10 - Escreva   um  programa   que  dado  n,  imprima  os  n  primeiros  números  ímpares  em   ordem decrescente.
+
 33 - A Subindo Bem Confortavelmente (SBC) é uma empresa tradicional, com mais de 50 anos de experiência na fabricação de elevadores. Todos os projetos da SBC seguem as mais estritas normas de segurança, mas infelizmente uma série de acidentes com seus elevadores manchou a reputação da empresa.
 
 Ao estudar os acidentes, os engenheiros da companhia concluíram que, em vários casos, o acidente foi causado pelo excesso de passageiros no elevador. Por isso, a SBC decidiu fiscalizar com mais rigor o uso de seus elevadores: foi instalado um sensor em cada porta que detecta a quantidade de pessoas que saem e entram em cada andar do elevador. A SBC tem os registros do sensor de todo um dia de funcionamento do elevador (que sempre começa vazio). Eles sabem que as pessoas são educadas e sempre deixam todos os passageiros que irão sair em um andar saírem antes de outros passageiros entrarem no elevador, mas ainda assim eles têm tido dificuldade em decidir se a capacidade máxima do elevador foi excedida ou não.
