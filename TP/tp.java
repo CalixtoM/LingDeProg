@@ -35,15 +35,16 @@ class Main {
 		System.out.print("Digite o número de semanas a escolher: ");
 		s = in.nextInt();
 		int[] p = new int[h]; //preco por uma pessoa
-		int[] ci = new int[s]; //camas disponiveis
-		int[] custo = new int[h]; //camas disponiveis
+		int[][] ci = new int[h][s]; //camas disponiveis
+		int custo = 0; //camas disponiveis
+		
 
 		for(int i = 0; i < h; i++){
-			System.out.print("Informe o valor por uma pessoa se hospedar no fim de semana no hotel "+i+": ");
-			p[i] = in.nextInt();
+			System.out.print("Informe o valor por uma pessoa se hospedar no fim de semana no hotel "+i+1+": ");
+			p[i]= in.nextInt();
 			for(int j = 0; j < s; j++){
-				System.out.print("Informe o numero de camas disponiveis na semana "+j+": ");
-				ci[j] = in.nextInt();
+				System.out.print("Informe o numero de camas disponiveis na semana "+j+1+": ");
+				ci[i][j] = in.nextInt();
 			}
 		}
 
@@ -52,18 +53,21 @@ class Main {
 			System.out.println(custo);
 		}*/
 
-		for(int i = 0; i < p.length; i++){
-			for(int j = 0; j < ci.length; j++){
-				if(ci[j] >= n){
-					custo[i] = p[i] * n;
+		for(int i = 0; i < h; i++){
+			for(int j = 0; j < s; j++){				
+				if( ci[i][j] >= n){
+					if((p[i] * n) < custo || custo == 0){
+						custo = p[i] * n;
+					}
 				}
+				
 			}
 		}
 
-		Arrays.sort(custo);
+
 		
-		if(custo[0] < o && custo[0] > 0){
-			System.out.println(custo[0]);	
+		if(custo <= o && custo > 0){
+			System.out.println(custo);	
 		}
 		else{
 			System.out.println("Fique em casa");	
