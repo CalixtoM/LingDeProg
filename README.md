@@ -124,3 +124,13 @@ A primeira linha da entrada terá um inteiro A (1 ≤ A ≤ 10.000) representand
 
  - Saída:
 Imprima um inteiro representando a quantidade de estrelas que serão percebidas ao se utilizar o telescópio em questão.
+
+## TP
+
+Como você não compareceu à reunião geral anual do Clube de Alunos da Fatec de Praia Grande (CAFPG), você foi unanimemente eleito para organizar a excursão deste ano para Ilhéus (BA). Você é livre para escolher um fim de semana nesta primavera, e deve encontrar um hotel adequado para a hospedagem, de preferência o mais barato possível. Você tem algumas restrições: O custo total da viagem deve estar dentro do orçamento, é claro. Todos os participantes devem ficar no mesmo hotel, para evitar catástrofes que aconteceram nos anos passados, onde membros se perderam na cidade e nunca mais foram vistos. Escreva um programa em Java para determinar o custo mínimo de um final de semana para o grupo de alunos da Fatec.
+
+### Entrada
+A primeira linha da entrada consiste de quatro inteiros:  N  (1 ≤  N≤ 200), que é onúmero de participantes, O(1 ≤ O≤ 500000), que é o orçamento, H (1 ≤ H≤ 18), que é o número de hotéis a considerar, e S (1 ≤ S≤ 13), que é o número de semanas que você pode escolher. Em seguida, há duas linhas para cada um dos H hotéis. A primeira linha fornece um inteiro P (1 ≤ P≤ 10000), que é o preço por uma pessoa se hospedar no fim de semana no hotel. A segunda linha contém S inteiros Ci (0 ≤ Ci≤ 1000, para 1 ≤ i ≤ S), que é o número de camas disponíveis para cada fim de semana no hotel.
+
+### Saída
+Imprima o custo mínimo da hospedagem de um grupo em um dos fins de semana. Caso o custo não seja possível para o orçamento, imprima “fique em casa”.
