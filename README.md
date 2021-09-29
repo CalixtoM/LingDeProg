@@ -134,3 +134,43 @@ A primeira linha da entrada consiste de quatro inteiros:  N  (1 ≤  N≤ 200), 
 
 ### Saída
 Imprima o custo mínimo da hospedagem de um grupo em um dos fins de semana. Caso o custo não seja possível para o orçamento, imprima “fique em casa”.
+
+## P1
+
+1 - Atletas conseguem resultados cada vez melhores! O recorde mundial de uma determinada modalidade esportiva é o melhor resultado conseguido por um atleta nessa modalidade, em competições oficiais. Competições oficiais incluem campeonatos mundiais, como os campeonatos mundiais de ginástica, atletismo ou natação, e também as Olimpíadas.
+ 
+Como as Olimpíadas acontecem a cada quatro anos e competições oficiais acontecem todos os anos, é possível que o melhor resultado obtido em Olimpíadas em uma dada modalidade seja um resultado pior do que o recorde mundial para aquela modalidade. Por isso, nas provas das Olimpíadas são sempre mencionados dois recordes: o recorde olímpico (melhor resultado que já foi obtido em Olimpíadas) e o recorde mundial (melhor resultado em qualquer competição oficial, incluindo as Olimpíadas).
+ 
+Nesta tarefa, dados o resultado de uma prova nas Olimpíadas e os recordes mundial e olímpico para essa prova, sua tarefa é escrever um programa em Java para determinar se o resultado é um novo recorde mundial e/ou um novo recorde olímpico.
+ 
+### Entrada
+A entrada é composta por três linhas. A primeira linha é um inteiro R, o melhor resultado obtido por um atleta numa prova das Olimpíadas. A segunda linha é um inteiro M, o recorde mundial para essa prova. A terceira linha é um inteiro L, o recorde olímpico para essa prova. Para as provas desta tarefa, quanto menor o valor melhor o resultado.
+ 
+### Saída
+Seu programa deve produzir duas linhas. A primeira linha deve ser RM se o resultado é um recorde mundial, ou * (asterisco) caso contrário. A segunda linha deve ser RO se o resultado é um recorde olímpico, ou * (asterisco) caso contrário.
+
+2 - A profa. Vilma preparou uma tarefa de programação sobre a operação de potenciação. Para lembrar, seja um número real n e um número inteiro p igual ou maior do que zero, então a operação de potenciação n elevado a p tem o valor de n multiplicado por ele mesmo p vezes (se p = 0 o resultado da operação de potenciação é 1). Por exemplo,  2³ = 2 × 2 × 2 = 8 e 102⁰ = 1.
+ 
+A tarefa preparada pela profa. Vilma foi a seguinte: Escreva um programa para calcular o valor das seguintes expressões contendo operações de potenciação:
+ 
+2⁴ + 12³
+ 
+300³ + 15² + 4²
+ 
+Veja que cada termo das expressões tem a forma n elevado a p onde n e p são números inteiros e p tem apenas um dígito decimal.
+ 
+No entanto, quando a profa. Vilma colocou o enunciado da tarefa na Internet, a formatação do enunciado foi corrompida, fazendo com que as expressões aparecessem assim para os alunos:
+ 
+24 + 123
+ 
+3003 + 152 + 42
+ 
+Note que por exemplo 2⁴ virou 24, 12³ virou 123, 300³ virou 3003 e assim por diante, ou seja, as operações de potenciação desapareceram!
+ 
+Nesta tarefa, você deve escrever um programa em Java para calcular o valor das expressões da tarefa original da profa. Vilma, sabendo que a formatação do enunciado foi corrompida conforme explicado acima.
+
+### Entrada
+A primeira linha da entrada contém um número inteiro N, o número de termos da expressão. Cada uma das N linhas seguintes contém um inteiro Ti, indicando um termo da expressão com formatação corrompida.
+
+### Saída
+Seu programa deve produzir uma linha, contendo um único número inteiro, o valor da soma dos termos da expressão, sabendo que a formatação dos termos foi corrompida como explicado acima.
