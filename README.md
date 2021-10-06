@@ -174,3 +174,7 @@ A primeira linha da entrada contém um número inteiro N, o número de termos da
 
 ### Saída
 Seu programa deve produzir uma linha, contendo um único número inteiro, o valor da soma dos termos da expressão, sabendo que a formatação dos termos foi corrompida como explicado acima.
+
+## Aula 29-09
+
+Exemplo 1 - Escreva um programa que dada uma string,  escreva-a de trás para frente.
