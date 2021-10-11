@@ -1,5 +1,9 @@
 # LingDeProg
+
+## 💡 Ideia:
+
 Repositório dedicado aos exercicios realizados nas aulas de Linguagem de Programação, do segundo semestre do curso de Análise e Desenvolvimento de Sistemas. Todos os exercicios foram realizados utilizando Java.
+
 
 ## Aula 04-08
 
