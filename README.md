@@ -190,4 +190,4 @@ Exemplo 3 - Escreva um programa que receba um nome completo e apresente apenas o
 ## TP2
 Finalizado, porém vamos aguardar mais um pouco para postagem :)
 
-# 🛠 PROJETO EM DESENVOLVIMENTO
+## ✅ Repositório Finalizado
