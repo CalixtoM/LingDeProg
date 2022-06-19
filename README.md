@@ -4,6 +4,12 @@
 
 Repositório dedicado aos exercicios realizados nas aulas de Linguagem de Programação, do segundo semestre do curso de Análise e Desenvolvimento de Sistemas. Todos os exercicios foram realizados utilizando Java.
 
+## 🧰 Tecnologias Utilizadas:
+
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="40" width="52" alt="java logo"  />
+</div>
+
 
 ## Aula 04-08
 
@@ -189,5 +195,7 @@ Exemplo 3 - Escreva um programa que receba um nome completo e apresente apenas o
 
 ## TP2
 Finalizado, porém vamos aguardar mais um pouco para postagem :)
+
+
 
 ## ✅ Repositório Finalizado
